@@ -1,0 +1,32 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border-color: #fff;
+	border-radius: 30px;
+	background: #5c7d16;
+	color: #fff;
+	border:0px;
+	border: 0px;
+	padding: 12px 20px;
+	width: 250px;
+	display: block;
+	margin:auto;
+	font-size:20px;
+
+/*
+	min-width: 300px;
+	min-height: 50px;
+*/
+
+	&:hover {
+          background-color: #8ca45b;
+	}
+
+	&:active,
+	&:focus {
+		background-color: #8ca45b;
+	}
+}
+input[type="submit"],
+button:focus {outline:0;}

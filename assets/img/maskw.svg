@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 258 258" style="enable-background:new 0 0 258 258;" xml:space="preserve">
+<style type="text/css">
+	.st0{filter:url(#a);}
+</style>
+<filter  filterUnits="objectBoundingBox" height="119.9%" id="a" width="117.9%" x="-7.6%" y="-8.4%">
+	<feOffset  dx="5" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+	<feGaussianBlur  in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"></feGaussianBlur>
+	<feColorMatrix  in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0">
+		</feColorMatrix>
+	<feMerge>
+		<feMergeNode  in="shadowMatrixOuter1"></feMergeNode>
+		<feMergeNode  in="SourceGraphic"></feMergeNode>
+	</feMerge>
+</filter>
+<g transform="translate(-32 -6)" class="st0">
+</g>
+</svg>

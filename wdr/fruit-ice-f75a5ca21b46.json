@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "fruit-ice",
+  "private_key_id": "f75a5ca21b468b3c5b717ff6b67452ce53922302",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCpeMrQEYrHqX/g\nUwfT97OJvtt5dqTN/J4zH6UDNbKvoIt4NP0uc5twYw/DPIeGs6dHBxeIrkxOghmQ\nc6QXxQ9cgVR55veoJeUR2DKCyYWi3VVFl6EqdObPz7GuSJ+EaFDb4Furv3pILoLp\nm412vdRYrwDvXBjWpHh/AFgh24HRPTJa1IknymQrSUxn/3u4rOEzUQ4qO2dRMWeg\nLh8HG065NFWker8bBUvK5t1DL++BvDzzYndGKPapfy5fQOIAigbF5/EFEz00PyAM\nbeuvsN5rTYQUBqlvE8bBEDZu94oqWB3XcyNI6kQ4VORj62ssLgjeOUewUIItRXmH\nOvlGS8UpAgMBAAECggEAItBcoYepAcExMsz7w7CT4k0h2v7jdilZ+lia1mD2lxuc\n6xG/nQZEvT6sY0gQ8zv+thmf3QUpSctyIvmOkQ97S16KEwy+fX1jZFoMbk+ls0JS\nnRw8EHO5YqFg99OVaWbgjXq2ej64iRF89S5uTiFK+PjicUlzFMzur/BLKpFkRq48\nq5pE1LgTe4OCH3j+LSUZ05kz9DLMZkhB2Y/6hkjDqeLasMu4HkFLFbXxQudGJTop\nlB8wLNSj59v4Y5KC9IIQ+4mL/KWrqWwUYpfos5oVWxwUyBoqKHdKTVWsOzcYmzoK\nriEkC44WFYSJNLcGxHhDqQ1qHBx5xykuy1Vu2o2jnQKBgQDlUcu9vaQ4IF3XxGeo\nOnUs3fM7Uu46XqM7Xz6mIssl/XnXkb4cWLiGCi9SfbJdFxdcvR1t2eoH2Q+GnyJb\ne57jAr7riiK70N9aErA65XlZ3GgUuSmFn9brdakVnzhrpmEUAlBisMUTWpZC4twS\nXANeCIO2hveQROqLvxwfbhHjwwKBgQC9MHQqHCapoEOsaR6XudzU+BP1Yj/Vqq9V\nKJSUGPD9WPksmaj5z30QdoUFANhs0HHmbK0epK+j54D5KaeiFzhZwPHFy4gp76Je\nKNEUkkJzyIDsYCaqjrEoQXVcFWldVc2WWcnQw06X9Fd/k5OC9cwB/nAorsPebJFZ\n0Ml9G71AowKBgFAi02YM/XQ3q1OZaPfa5dO2BCe5BVMUe0pmMEhyZDd0ar2wSpUx\nU9pTeNIE5u2tAhcAZ2ZZ/nSbn9dViPYbLxz5eqpo7VZg2Yxqd3c9dbi3Uw/a3O27\nO6mwxlOt/lNwIwCRBnJWf6gRwezBxlIMIYkcxJpmc+DQlH4dXMCHAG1tAoGBAIja\n9C1CD/XEqS+fGzJGkSi+DDIF0IeP4SWJJXG8WRfrtNQ+k62iGqY+Fht4cRbF8p7t\nHo58M1IttW6IY2stwOWsXTjn8qfjYWEbxaNL6iY3dIuJQm8+qYilUXA7TOznlMCe\nUw9hOQlTB7iR2LNzexA2Low/YBEWGE8QabDG0DBhAoGAAuCzF9ShSFVyzQSdusmc\nLxmEj1UjAzICdtWS7nwvE2Y97N9xSygZ/mBlw9EHUBC+4sDIiqd1xNuQDcCB3e6N\ndikx1Tv+vZ0SYqikVCVOnj8Q0xAMG0I7zUYZ3qgX+dYf1TMLiD99h919VHk4PM1L\n94W+pGSuZFGmKyDJroJ78EU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ice-wdr-tw@fruit-ice.iam.gserviceaccount.com",
+  "client_id": "107021453897359504698",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ice-wdr-tw%40fruit-ice.iam.gserviceaccount.com"
+}

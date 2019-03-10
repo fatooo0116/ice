@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="978" height="405" viewBox="0 0 978 405">
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#FFED9E" font-family="NotoSansCJKtc-Bold, Noto Sans CJK TC" font-size="400" font-weight="bold" transform="translate(-21 -145)">
+            <tspan x="0" y="464">Oops</tspan>
+        </text>
+        <g stroke="#749233" stroke-linecap="round" stroke-linejoin="round" stroke-width="13.01">
+            <path fill="#E7AF3D" d="M107.103 254.604v118.413s.468 22.893 26.181 22.893c25.714 0 25.557-21.657 25.557-21.657V254.604c0-14.287-11.582-25.868-25.869-25.868-14.287 0-25.869 11.581-25.869 25.868z"/>
+            <path stroke-dasharray="32.52506561279297,29.27255973815918" d="M214.944 316.09H51V144.697c0-8.663 1.245-89.101 81.971-89.101 22.82 0 39.289 5.68 51.173 13.998 7.922 5.543 13.805 12.259 18.176 19.244 4.286 6.85 7.117 13.957 8.99 20.478 3.485 12.16 3.633 22.277 3.633 24.861v181.915z"/>
+        </g>
+        <g fill="#749233" transform="rotate(42 126.5 287.01)">
+            <rect width="11.52" height="32.67" x="5.583" y="9.801" rx="5.76" transform="rotate(-20 11.343 26.136)"/>
+            <rect width="11.52" height="32.67" x="38.317" y=".827" rx="5.76"/>
+            <rect width="11.52" height="32.67" x="68.118" y="9.801" rx="5.76" transform="rotate(20 73.878 26.136)"/>
+        </g>
+    </g>
+</svg>

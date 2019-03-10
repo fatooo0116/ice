@@ -1,0 +1,146 @@
+
+#fruit_season{
+
+
+  .title{
+    position: relative;
+    .logos{
+      right:0;
+      top:-50px;
+      position: absolute;
+      display: table;
+      height: 100px;
+      width: 100px;
+      span{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 40px;
+        color: #2c2c2c;
+      }
+      &.rf1{
+        background-image: url(../img/rf1_x.svg);
+      }
+      &.rf2{
+        background-image: url(../img/rf4_x.svg);
+      }
+      &.rf3{
+        background-image: url(../img/rf3_x.svg);
+      }
+      &.rf4{
+        background-image: url(../img/rf2_x.svg);
+      }
+    }
+  }
+
+
+  .title,
+  .pix,
+  .pix2{
+    max-width: 794px;
+    margin: auto;
+  }
+
+  h1{
+    margin-top:112px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 50px;
+      color:#5c7d16;
+  }
+  h2{
+    font-size: 20px;
+    color:#5c7d16;
+    margin-bottom: 97px;
+  }
+
+  .text{
+    max-width: 700px;
+    margin: auto;
+    padding:50px 0px;
+    color:#2c2c2c;
+    line-height: 2em;
+    font-size: 15px;
+    font-weight: 300;
+
+    ul{
+      margin-bottom: 50px;
+    }
+    p{
+      margin-bottom: 40px;
+    }
+  }
+
+  .pix3{
+    max-width: 997px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .back{
+    text-align: center;
+    a.btn{
+      width: 176px;
+      height: 36px;
+      border:2px solid #5c7d16;
+      border-radius: 81px;
+      background:none;
+      color:#5c7d16;
+    }
+  }
+  .back a:hover{
+    background-color: #5c7d16;
+    color:#fff;
+  }
+}
+
+
+@media screen and (max-width: 450px){
+
+  #page{
+    width: 100%;
+    overflow-x: hidden;
+    #fruit_season{
+      h2{
+        margin-bottom: 50px;
+      }
+      .text{
+        padding: 30px 0px;
+        p:last-child{
+          margin-bottom: 0px;
+        }
+      }
+      .pix .col-xs-6:first-child{
+        padding-right:5px;
+      }
+      .pix .col-xs-6:last-child{
+        padding-left:5px;
+      }
+    }
+    #fruit_season .pix,
+    #fruit_season .pix2,
+    #fruit_season .pix3{
+      margin: auto -15px;
+    }
+  }
+
+
+  #fruit_season{
+    padding-top:55px;
+    h1{
+      margin: 30px 0  15px;;
+      line-height: 1.5em;
+      text-align: center;
+    }
+    h2{
+      text-align: center;
+    }
+    .title{
+      .logos{
+        top:0px;
+        margin: auto;
+        position: relative;
+      }
+    }
+  }
+}

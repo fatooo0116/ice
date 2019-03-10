@@ -1,0 +1,549 @@
+
+
+
+
+
+/*   WDr  Menu */
+
+.home #wdr-menu .menu-box .site-logo{
+  display: none;
+}
+
+
+#wdr-menu{
+
+  .mask{
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    height:110vh;
+    background: rgba(0,0,0,0);
+    left: 0;
+    display: none;
+  }
+
+  .menu-box{
+    max-width: 161px;
+    min-width: 140px;
+    margin: auto 0 auto auto;
+
+    .site-logo{
+      height:170px;
+      a{
+        display: block;
+        text-align: center;
+        img{
+          width: 108px;
+        }
+      }
+    }
+
+    .shop{
+      border-top:1px solid #a0ac48;
+      border-bottom:1px solid  #a0ac48;
+      padding-top:31px;
+      padding-bottom: 31px;
+      ul{
+        li{
+          margin-bottom:10px;
+          line-height: 39px;
+          max-width: 150px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          a{
+            -ms-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+            display: block;
+            font-size: 16px;
+            padding: 0px 0px 0px 40px ;
+            position: relative;
+
+            .cart_num{
+              display: inline-block;
+              background: #f49600;
+              color: #333;
+              border-radius: 50px;
+              line-height: 15px;
+              min-width: 23px;
+              text-align: center;
+              padding: 4px 0;
+              margin-left: 5px;
+              font-size: 15px;
+              padding: 4px 5px;
+            }
+
+            i{
+              position: absolute;
+              left: 9px;
+              font-size: 20px;
+              width: 25px;
+              display: inline-block;
+              text-align: center;
+              margin: 0;
+              height: auto;
+              line-height: 39px;
+            }
+            svg{
+              position: absolute;
+              left: 11px;
+              width: 23px;
+              top: 9px;
+            }
+          }
+
+          a:hover{
+            background: #f0d6a8;
+            border-radius:15px;
+            svg g{
+            /*  fill:#F29700; */
+            }
+          }
+        }
+        li:last-child{margin-bottom:0px;}
+      }
+    } /*  shop */
+
+    .wp-menu{
+      position: relative;
+
+      ul{
+        display: flex;
+        flex-wrap:wrap;;
+        position: relative;
+        width: 100%;
+          li:nth-child(n+5){
+            border-bottom:0px;;
+          }
+          li{
+            display: block;
+            width: 25%;
+            -webkit-writing-mode: vertical-rl; /* for browsers of webkit engine */
+            writing-mode: tb-rl; /* for ie old*/
+            -ms-writing-mode: vertical-rl;
+            writing-mode: vertical-rl;
+            align-items:center;
+            padding: 17px 0;
+            position: relative;
+            border-bottom:1px solid  #a0ac48;
+
+
+
+            a{
+
+              -webkit-transition: 0.5s;
+              -moz-transition: 0.5s;
+              -ms-transition: 0.5s;
+              transition: 0.5s;
+
+              display: block;
+              padding: 5px 4px;
+              svg{
+                position: absolute;
+                top: 10px;
+                left: 50%;
+                margin-left: -5px;
+              }
+              background-position: center top;
+              padding-top:43px;
+              background-repeat: no-repeat;
+              font-weight: 300;
+              height:470px;
+              min-width: 20px;
+              position: relative;
+              letter-spacing: 5px;
+              span{
+                position: absolute;
+                bottom:10px;
+                letter-spacing: 0px;
+                line-height: 1.2em;
+              }
+            }
+          } /* li */
+
+
+          li.current{
+            a{
+              background: #a0ac48 ! important;
+              border-radius:15px;
+              color:#fff;
+              svg path{
+                fill:#fff600;
+                stroke:#fff600;
+              }
+            }
+          }
+          li:hover{
+            a{
+              background: #f0d6a8;
+              border-radius:15px;
+            }
+          }
+
+      }
+    } /*  wp-menu  */
+
+    /*  購物須知 */
+    .kw{
+      text-align: center;
+      width: 161px;
+      padding:30px 0;
+      border-top: 1px solid #a0ac48;
+      border-bottom: 1px solid #a0ac48;
+      a{
+        padding:5px 20px;
+        -ms-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        border-radius:15px;
+      }
+      a:hover{
+        background: #f0d6a8;
+      }
+    }
+
+    .sns{
+      border-bottom: 1px solid #a0ac48;
+      width: 161px;
+      text-align: center;
+      padding:30px 0;
+      margin-bottom: 100px;
+      a{
+        display: inline-block;
+        margin:0 10px;
+      }
+      .xfb:hover{
+        svg{
+          path{
+            fill:#3B5998;
+          }
+        }
+      }
+      .xline:hover{
+        svg{
+          path{
+            fill:#00c300;
+          }
+        }
+      }
+      .xig{
+        .ig1{
+          display: block;
+        }
+        .ig2{
+          display: none;
+        }
+      }
+      .xig:hover{
+        .ig2{
+          display: block;
+        }
+        .ig1{
+          display: none;
+        }
+      }
+
+    }
+
+  }
+
+} /* wdr-menu */
+
+
+
+
+.mobile-nav{
+  background:  #fff6e0;;
+  display: none;
+  width: 100%;
+  height: 55px;
+  border-bottom: 1px solid #a0ac48;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 99;
+  h2{
+    margin: 0;
+    font-size: 28px;
+    font-weight: 300;
+    color: #a0ac48;
+    padding-top: 9px;
+    line-height: 34px;
+    padding-left: 0px;
+    display: inline-block;
+    font-weight: 400;
+  }
+
+
+  a{
+    display: inline-block;
+    float: right;
+    padding:3px 10px 0;
+    i{
+      font-size: 40px;
+      color:#a0ac48;
+      line-height:40px;
+
+
+    }
+  }
+}
+
+
+
+/*
+.main-navigation {
+	clear: both;
+	display: block;
+
+	width: 100%;
+
+	ul {
+		display: none;
+		list-style: none;
+		margin: 0;
+		padding-left: 0;
+
+		ul {
+			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+			float: left;
+			position: absolute;
+			top: 100%;
+			left: -999em;
+			z-index: 99999;
+
+			ul {
+				left: -999em;
+				top: 0;
+			}
+
+			li {
+				&:hover > ul,
+				&.focus > ul {
+					left: 100%;
+				}
+			}
+
+			a {
+				width: 200px;
+			}
+
+			:hover > a,
+			.focus > a {
+			}
+
+			a:hover,
+			a.focus {
+			}
+		}
+
+		li:hover > ul,
+		li.focus > ul {
+			left: auto;
+		}
+	}
+
+	li {
+		float: left;
+		position: relative;
+
+		&:hover > a,
+		&.focus > a {
+		}
+	}
+
+	a {
+		display: block;
+		text-decoration: none;
+	}
+
+	.current_page_item > a,
+	.current-menu-item > a,
+	.current_page_ancestor > a,
+	.current-menu-ancestor > a {
+	}
+}
+
+
+
+
+
+
+.menu-toggle,
+.main-navigation.toggled ul {
+	display: block;
+}
+
+@media screen and (min-width: 37.5em) {
+	.menu-toggle {
+		display: none;
+	}
+	.main-navigation ul {
+		display: block;
+	}
+}
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+	.site-main & {
+		margin: 0 0 1.5em;
+		overflow: hidden;
+	}
+
+	.nav-previous {
+		float: left;
+		width: 50%;
+	}
+
+	.nav-next {
+		float: right;
+		text-align: right;
+		width: 50%;
+	}
+}
+
+*/
+
+@media screen and (min-width: 768px) {
+  #content{
+    padding-top:70px;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  #page{
+    padding-top:60px;
+  }
+
+  .mobile-nav{
+    display: block;
+    z-index: 999;
+    top:0;
+    a{
+          padding: 3px 20px 0;
+    }
+
+    .site-logo{
+      float:left;
+      a{
+        float:none;
+        img{
+          height:40px;
+          margin-top:5px;
+        }
+      }
+    }
+  }
+
+
+  header.entry-header{
+    display: none;
+  }
+
+  header.side-open{
+      #wdr-menu{
+        right:0;
+        .mask{
+          display: block;
+        }
+      }
+  }
+
+
+
+  #wdr-menu{
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    transition: 0.4s;
+
+    position: fixed;
+    top:55px;
+    right:-220px;;
+     z-index: 9999;
+     .menu-box{
+       background-color: #fff6e0;
+       box-shadow: -2px 0px 2px 0 rgba(138,138,138,0.5);
+       max-width: none;;
+       width: 195px;
+       padding: 0px;
+        //padding-bottom:15px;
+        .site-logo{
+              display: block ! important;
+              border-bottom: 1px solid #a0ac48;
+              height: auto;
+              padding:18px 0;
+              a{
+                height: 45px;
+                img{
+                  height: 45px;
+                  width: auto;
+                }
+              }
+        }
+
+
+        .mobile_scroll{
+          /* height: calc(100vh - 180px); */
+          overflow-y: scroll;
+
+          .shop{
+            border-top: 0px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            ul{
+              li{
+                margin-bottom: 5px;
+              }
+            }
+          }
+
+
+          .wp-menu ul{
+            padding:10px;
+              li{
+                width: 100%;
+                -webkit-writing-mode: initial;
+                 writing-mode: initial;
+                 -ms-writing-mode: initial;
+                 writing-mode: initial;
+                 border:0px;
+                 padding: 5px 0;
+                 a{
+                   height:auto;
+                   padding: 5px 0 5px 20%;
+                   letter-spacing: 2px;
+                     span{ display: none;}
+                     svg{
+                       left:10%;
+                       top:9px;
+                     }
+                   }
+               }
+          }  /*  .wp-menu */
+          .kw{
+            width:100%;
+            border-top: 1px solid #a0ac48;
+                padding: 20px 0;
+
+          }
+          .sns{
+
+                padding: 20px 0;
+               width:100%;
+                margin-bottom: 0px;
+                border-bottom:0px;
+          }
+        } /*  mobile_scroll */
+
+     }
+  }  /*  #wdr-menu */
+}

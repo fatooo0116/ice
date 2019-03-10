@@ -1,0 +1,490 @@
+
+.styled-checkbox {
+  position: absolute; // take it out of document flow
+  opacity: 0; // hide it
+
+  & + label {
+    position: relative;
+    cursor: pointer;
+    padding: 0 0 0 27px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+
+
+  // Box.
+  & + label:before {
+    content: '';
+    position: absolute;
+    left:0;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 20px;
+    height: 20px;
+
+    margin-top: 5px;
+    border-radius: 3px;
+      box-shadow: 0 0 0 3px #5c7d16;
+  }
+
+  // Box hover
+  &:hover + label:before {
+     background: #ffed9e;
+  }
+
+  // Box focus
+  &:focus + label:before {
+    box-shadow: 0 0 0 3px #5c7d16;
+  }
+
+  // Box checked
+  &:checked + label:before {
+    //background: #ffed9e;
+  }
+
+  // Disabled state label.
+  &:disabled + label {
+    color: #b8b8b8;
+    cursor: auto;
+  }
+
+  // Disabled box.
+  &:disabled + label:before {
+    box-shadow: none;
+    background: #ddd;
+  }
+
+  // Checkmark. Could be replaced with an image
+  &:checked + label:after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 13px;
+    background: #749233;
+    width: 4px;
+    height: 4px;
+    box-shadow:
+      2px 0 0 #749233,
+      4px 0 0 #749233,
+      4px -2px 0 #749233,
+      4px -4px 0 #749233,
+      4px -6px 0 #749233,
+      4px -8px 0 #749233;
+    transform: rotate(45deg);
+  }
+}
+
+
+
+
+
+
+/*   Boostrap  Select  */
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+  width: 90% ! important;
+}
+
+
+
+
+
+
+
+
+
+
+
+#storefilter{
+  border-radius: 20px;
+  background-color: #749233;
+  color:#fff;
+  padding: 15px 30px;
+  margin: 15px 15px 70px;
+  color: #fff;
+  padding: 55px 35px;
+  text-align: center;
+
+
+  .styled-checkbox+label:before{
+    background: #fff;
+  }
+
+  .alltags{
+    margin-left:0 ! important;
+    margin-right:0 ! important;
+    padding-bottom:35px;
+    border-bottom:1px solid #fff;
+    .tag{
+        text-align: center;
+        label{
+          svg{
+            position: absolute;
+            top:1px;
+            margin-right:-16px;
+            right:0;
+          }
+        }
+    }
+  }
+
+  .location{
+      font-size: 20px;
+      display: inline-block;
+      padding-top:40px;
+
+      display: flex;
+      >div{
+        width: 33%;
+
+
+
+
+
+        .bootstrap-select .dropdown-toggle .caret{
+          background: url(../img/selectdown.svg);
+          background-position: center;
+          background-repeat: no-repeat;
+          width: 20px;
+          height: 15px;
+          border: 0px;
+          margin-top: -7.5px;
+          transform: rotate(0deg);
+          -webkit-ransition: 0.3s;
+          -moz-transition: 0.3s;
+          -ms-transition: 0.3s;
+          transition: 0.3s;
+        }
+        .bootstrap-select.open{
+          .dropdown-toggle .caret{
+             -ms-ransform: rotate(180deg);
+             -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+          }
+        }
+
+        .bootstrap-select{
+          color: #5c7d16;
+            button{
+              border:0px;
+              box-shadow: none;
+              border-radius: 20px;
+              color: #5c7d16;
+              outline: none !important;
+                padding:8px 30px;
+            }
+            select{
+              outline: none !important;
+            }
+        }
+        .bootstrap-select.open{
+          button{
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius:0;
+            border-bottom-right-radius:0;
+
+            font-size: 16px;
+          }
+        }
+
+
+        .bootstrap-select.open.dropup{
+          button{
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-top-left-radius:0;
+            border-top-right-radius:0;
+
+            font-size: 16px;
+          }
+          .dropdown-menu.open{
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius:0px;
+            border-bottom-right-radius:0px;
+          }
+        }
+
+
+        .bootstrap-select.open button{
+          background: #ffed9e;
+          outline: none !important;
+        }
+
+
+        .dropdown-menu.open{
+          background: #ffed9e;
+          border-top-left-radius: 0px;
+          border-top-right-radius: 0px;
+          border-bottom-left-radius:20px;
+          border-bottom-right-radius:20px;
+          padding-top: 10px;
+          padding-bottom: 15px;
+          ul{
+              background: #ffed9e;
+              outline: none !important;
+            li{
+              padding:5px 0;
+              a{
+                outline: none !important;
+                background: #ffed9e;
+                color: #5c7d16;
+                margin: 0 12px;
+                font-size: 14px;
+                line-height: 1.4em;
+              }
+            }
+            li.selected{
+              a{
+                margin: 0 10px;
+                border-radius: 20px;
+                outline: none !important;
+                border: solid 2px #a0ac48;;
+                background: #ffed9e;
+                  color: #5c7d16;
+              }
+            }
+          }
+        }
+      }
+  }
+} /*  #storefilter  */
+
+
+
+
+
+
+
+
+#storeList{
+  margin-bottom: 200px;
+  max-width: 90%;
+  margin:auto;
+
+
+  article{
+    margin-bottom: 30px;
+
+    .inner{
+      display: block;
+      position: relative;
+      border-radius: 20px;
+      overflow: hidden;
+      background:none;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      transition: 0.3s;
+      background: #fff;
+      padding: 15px 30px 30px;
+
+
+          header{
+            overflow: hidden;
+            padding:0;
+
+            h3{
+              margin: 0;
+
+                display: block;
+                  margin: 10px 0 15px;
+                letter-spacing: 0.3px;
+                font-size: 16px;
+                line-height: 1.5em;
+                color:#5c7d16;
+
+            }
+          } /*  header */
+
+          .address{
+            font-size: 14px;
+            font-weight: 300;
+            color:#5c7d16;
+            address{
+              margin-bottom: 10px;
+              line-height: 2em;
+            }
+            a{
+              color:#5c7d16;
+              margin-bottom: 10px;
+            }
+          }
+
+          .link{
+            position: absolute;
+            width: 48px;
+            height:48px;
+            right:15px;
+            bottom:15px;
+            display: table;
+            .xinner{
+              display: table-cell;
+              width:100%;
+              height:100%;
+              text-align: center;
+              vertical-align: middle;
+              background: #a0ac48;
+              border-radius: 50%;
+              color:#fff;
+              font-size: 30px;
+            }
+          }
+
+          .category{
+            .iconx{
+              display: inline-block;
+              width: 30px;
+              height:30px;
+              text-align: center;
+              padding-top:3px;
+              svg{
+                path{
+                  fill:#7f7f7f;
+                }
+              }
+            }
+          }
+
+
+      } /* inner  */
+  } /*  article  */
+
+  article:hover{
+    .inner{
+        box-shadow: 4px 4px 8px 0 rgba(196, 160, 77, 0.6);
+
+        .link{
+          .xinner{
+            background: rgba(160, 172, 72, 0.7);
+          }
+        }
+    }
+  }
+
+
+  nav{
+    position: absolute;
+    width: 100%;
+    bottom:0;
+  }
+}
+
+
+/*
+*
+*   Single MAp
+*
+*/
+
+#store_info{
+  padding-top:80px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  h2{
+    display: none;
+    font-size: 22px;
+    margin: 0 0 20px 0;
+    line-height: 2em;
+  }
+  #gmap{
+    background: #fff;
+    max-width: 896px;
+    height:600px;
+  }
+  #store_meta{
+    background: #fff;
+    padding:25px 60px 33px;;
+    h1{
+      margin: 0;
+      text-align: left;
+      color: #494949;
+      font-size: 18px;
+      letter-spacing: 0.4px;
+      margin-bottom:20px;
+      min-height: auto;
+      line-height: 1.2em;
+    }
+    ul{
+      li{
+        font-size: 14px;
+        letter-spacing: 0.3px;
+        font-weight: 300;
+        line-height:1.7em;
+      }
+      li.latlng{
+        margin-bottom: 20px;
+      }
+    }
+
+  }
+}
+
+
+/*   #####################    RWD   ######################## */
+
+
+@media screen and (max-width: 768px) {
+  header.page-header{
+    display: none;
+  }
+
+  #storefilter .alltags .tag{
+    text-align: left;
+  }
+  #storefilter{
+        padding: 35px 35px;
+        margin: 15px 15px 40px;
+        .alltags{
+          padding-bottom: 25px;
+          .tag{
+            margin-bottom: 10px;
+          }
+        }
+        .location{
+          padding-top:20px;
+        }
+  }
+  #storefilter .location{
+    display: block;
+    >div{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-bottom: 20px;
+    }
+    >div:last-child{
+      margin-bottom:0px;
+    }
+  }
+}
+
+
+
+
+@media screen and (max-width: 450px){
+  header.page-header{
+    display: none;
+  }
+  .styled-checkbox+label{
+    font-size: 16px;
+  }
+
+  #store_info {
+    margin: 0 -15px;
+    border-radius: 0px;
+    h2{
+      display: block;
+      padding-left:30px;
+    }
+    h1{
+      display: none;
+    }
+    #store_meta{
+      padding: 25px 30px 33px;
+    }
+  }
+}

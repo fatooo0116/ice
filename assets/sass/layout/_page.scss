@@ -1,0 +1,52 @@
+#page{
+	position: relative;
+	max-width: 1350px;
+	margin:auto;
+	padding-bottom:150px;
+
+	header.page-header,
+	header.entry-header{
+		margin:0;
+		padding:0 15px;
+		border:0px;
+
+		h1,h2{
+			line-height: 170px;
+			font-size: 100px;
+			text-align: right;
+			font-weight: 200;
+			margin: 0;
+			color:#a0ac48;
+			opacity:0.3;
+		}
+		.sep{
+			border-bottom: 1px solid #a0ac48;
+	    border-top: 1px solid #a0ac48;
+	    min-height: 3px;
+	    padding: 5px 0;
+
+			font-size: 16px;
+			color: #5c7d16;
+			letter-spacing: 0.3px;
+			font-weight: 300;
+			a{
+				font-size: 16px;
+				color: #5c7d16;
+				letter-spacing: 0.3px;
+				font-weight: 300;
+				padding:0 5px 0 5px;
+			}
+			a:first-child{
+				padding:0 5px 0 0;
+			}
+		}
+	}
+
+
+
+
+
+  main{
+    min-height: 800px;
+  }
+}

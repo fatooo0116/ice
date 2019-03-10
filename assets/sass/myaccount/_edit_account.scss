@@ -1,0 +1,65 @@
+#edit_my_account{
+  margin:80px auto 80px;
+  max-width: 900px;
+  border:1px solid #8c9679;
+  border-radius: 5px;
+  padding:30px;
+
+
+
+  h3.basic{
+    padding: 0 0 40px 0;
+    border-bottom: 1px solid #8c9679;
+    text-align: center;
+    margin: 0 0 30px 0;
+    font-size: 25px;
+  }
+  h3.passwd{
+    border-top: 1px solid #8c9679;
+    text-align: center;
+    margin: 20px 0 30px 0;
+    padding-top:30px;
+    font-size: 25px;
+  }
+
+  p{
+    display: block;
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    label{
+      display: block;
+      font-weight: 400;
+      color:#5c7d16;
+      font-size: 18px;
+      margin-left:10px;
+    }
+
+
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="password"]{
+      border-radius:5px;
+      padding:10px 13px;
+      border:0px;
+      width: 100%;
+      font-size: 18px;
+      color:#a0ac48;
+      margin-bottom:20px;
+    }
+  }
+
+  .subtx{
+    color:#5c7d16;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom:10px;
+  }
+
+  fieldset{
+    border:0px;
+  }
+}

@@ -1,0 +1,121 @@
+
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+      -moz-appearance:textfield;
+    }
+
+
+    span.required{
+      display: none;
+    }
+
+
+.woocommerce-error{
+
+  li{
+    strong{
+      font-weight: 400;
+
+    }
+    background-image: url('../img/woo-error.png');
+    background-position: left;
+    padding-left:30px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;;
+    /* display: inline-block; */
+    margin-right: 10px;
+    background-size: 25px;
+    background-position: top left;
+    line-height: 1.7em;    
+  }
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #749232;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #749232;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #749232;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #749232;
+}
+
+
+
+
+.woocommerce-error,
+.woocommerce-message{
+
+    color:#fff;
+    display: block ! important;
+    background-color: #a0ac48 ! important;;
+    margin: 0 auto 10px;
+    max-width: 800px;
+    padding:20px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+.account_outter_box{
+      border: 1px solid #8c9679;
+      max-width: 900px;
+      border-radius: 5px;
+      padding: 0px 0px 100px;;
+      margin:30px auto;
+
+      p{
+        max-width: 300px;
+        margin: 0 auto 50px;;
+      }
+
+      h3{
+        max-width: 700px;
+        margin: 0 auto 30px;;
+        font-size: 18px;
+        line-height: 1.7em;
+        padding:30px 60px;
+        background:#749233;
+        color:#fff;
+      }
+
+
+      h3.ptitle{
+        background:none;
+        text-align: center;
+        color:#5c7d16;
+        font-size: 24px;
+
+      }
+
+
+
+      p.form-row{
+        max-width: 300px;
+        margin: 0 auto 50px;;
+        label{
+          display: block;
+          color:#5c7d16;
+          font-weight: 500;
+          font-size: 18px;
+        }
+        input.input-text{
+          padding:10px;
+          width: 100%;
+          border:0px;
+        }
+      }
+}

@@ -1,0 +1,101 @@
+/*!
+Theme Name: ice
+Theme URI: http://wdr-web.com
+Author: Mike Hsu
+Author URI: http://wdr-web.com
+Description: Description
+Text Domain: ice
+*/
+
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+@import "elements/elements";
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+@import "forms/forms";
+
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+@import "modules/clearings";
+
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+@import "layout/menu";
+
+
+@import "layout/page";
+@import "layout/footer";
+@import "layout/header";
+@import "layout/post";
+@import "layout/store";
+@import "layout/stick";
+@import "layout/404";
+@import "layout/home";
+@import "layout/home_rwd";
+
+
+@import "layout/modal";
+@import "layout/brand1";
+@import "layout/buynote";
+@import "layout/brand3";
+@import "layout/ice76";
+@import  "layout/ripeft";
+@import  "layout/ripeft_season";
+@import  "layout/checkout";
+
+/*--------------------------------------------------------------
+# Myaccount
+--------------------------------------------------------------*/
+@import "myaccount/global";
+@import "myaccount/login";
+@import "myaccount/order";
+@import "myaccount/edit_account";
+@import "myaccount/cart";
+
+
+
+/*--------------------------------------------------------------
+# Shop
+--------------------------------------------------------------*/
+@import "shop/archive_product";
+@import "shop/single-product";
+@import "shop/checkout";

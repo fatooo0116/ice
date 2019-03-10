@@ -1,0 +1,352 @@
+
+
+.page-template-page-brand3 .brand_menu{
+  max-width: 860px;
+}
+
+.brand_menu{
+  margin: 100px auto;
+  max-width: 960px;
+  padding-left:20px;
+  padding-right:20px;
+  ul{
+    text-align:left;
+    li{
+      display: inline-block;
+      text-align: left;
+      width: 25%;
+      a{
+          font-size: 20px;
+            color: #6e4a39;
+            position: relative;
+            padding-left: 35px;
+            -webkit-ransition: 0.3s;
+            -moz-transition: 0.3s;
+            -ms-transition: 0.3s;
+            transition: 0.3s;
+
+            svg{
+              -webkit-ransition: 0.3s;
+              -moz-transition: 0.3s;
+              -ms-transition: 0.3s;
+              transition: 0.3s;
+              position: absolute;
+              left: 0;
+            }
+      }
+      a:hover{
+        color:#f29700;;
+        svg{
+          path{
+            fill:#f29700;;
+          }
+        }
+      }
+    }
+    li.cur{
+      a{
+        color:#f29700;;
+        svg{
+          path{
+            fill:#f29700;;
+          }
+        }
+      }
+    } /* .cur  */
+
+  }
+} /*  brand menu */
+
+
+
+
+
+
+
+
+#brand1{
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+
+  img{display:block;}
+
+  .xrow{
+    display:flex;
+    .xleft{
+      width:55%;
+      padding: 0 15px;
+    }
+
+    .xright{
+      width:45%;
+      padding: 0 15px;
+    }
+  }
+
+  .xrow.reverse{
+    flex-direction:row-reverse;
+  }
+
+
+
+
+  .pix1{
+    margin-bottom: 30px;
+    img{
+      margin-right: 10px;
+      margin-left: auto;
+    }
+  }
+  .pix2 {
+    margin-bottom: 30px;
+    img{
+      margin-right: 10px;
+      margin-left: auto;
+    }
+  }
+
+  .pix3 {
+    margin-bottom: 30px;
+    img{
+      margin-right: auto;
+      margin-left: 10px;
+    }
+  }
+
+  .pix4 {
+    margin-bottom: 30px;
+    img{
+      margin-right: auto;
+      margin-left: 10px;
+    }
+  }
+
+  .text{
+    padding-top:2em;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    color: #494949;
+    font-weight: 300;
+    font-size: 15px;
+    p{margin-bottom: 30px;}
+  }
+}
+/*  #brand1 */
+
+#think{
+  max-width: 830px;
+  height: 630px;
+  margin-right:0;
+  margin-left:auto;
+  background-color: #cbefca;
+  position: relative;
+
+  .apix{
+    position: absolute;
+        left: -120px;
+        top: -40px;
+  }
+
+  .text{
+    h3{
+      color: #fff6e0;
+      font-size: 80px;
+      letter-spacing: 1.8px;
+      line-height: 68px;
+      margin: 0;
+      position: absolute;
+      top: 0;
+      right:0;
+    }
+    .inner{
+      padding-top:143px;
+      max-width: 300px;
+      margin-left:auto;
+      margin-right:0;
+      .tp{
+        margin-bottom: 70px;
+        text-align: center;
+        color:#000;
+        .tx{
+          font-size: 20px;
+          letter-spacing: 0.4px;
+        }
+        .tdes{
+          font-size: 16px;
+          color: #2c2c2c;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+/*   大事記  */
+
+#company_event{
+  background-size: cover;;
+  background-image: url(../img/x2.png);
+  padding: 50px 0;
+
+  #event_grid{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  article{
+    width: 33.33%;
+    padding:15px;
+    .event{
+      height:400px;
+      border-radius: 20px;
+      overflow: hidden;
+      -webkit-backdrop-filter: blur(5px);
+       backdrop-filter: blur(5px);
+       background-color: rgba(255, 255, 255, 0.6);
+
+      .date{
+        background: #749233;
+        text-align: center;
+        color:#fff;
+        font-size: 28px;
+        padding:20px 0 19px;;
+        line-height: 42px;
+      }
+      .content{
+        padding: 25px;
+        h3{
+          text-align: center;
+          font-size: 18px;;
+          margin: 0 0 23px 0;;
+        }
+        .text{
+          font-size: 14px;
+          line-height: 1.71;
+          letter-spacing: 0.3px;
+          color: #5c7d16;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  #company_event article{
+    width:50%;
+  }
+  .brand_menu{
+    margin: 50px 0px;
+
+    ul{
+      li{
+        width: 33%;
+        text-align: center;
+        a{
+        }
+      }
+    }
+  }
+
+  #brand1 .xrow{ display:block;}
+  #brand1 .xrow .xleft,
+  #brand1 .xrow .xright{
+    width: 100%;
+  }
+
+  #think .apix {
+      position: absolute;
+      left: -300px;
+      top: -40px;
+  }
+
+
+}/*  768 */
+
+@media screen and (max-width: 550px){
+  #think .apix {
+      position: absolute;
+      left: -400px;
+      top: -40px;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 450px){
+
+  .page-template-page-brand-php,
+  .page-template-page-brand2-php,
+  .page-template-page-brand3-php{
+    #page{
+      padding-top: 100px;
+    }
+  }
+
+
+  #company_event{
+    background-size: contain;
+    margin: 0 -15px;
+    background-repeat: repeat;
+     article{
+           padding: 30px;
+     }
+  }
+
+
+  #company_event article{
+    width:100%;
+  }
+
+  h2.brand_title{
+        margin-right: 26px ! important;
+    .sep{
+      margin-left:25px;
+    }
+  }
+
+
+
+  .brand_menu{
+    top: 5px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 999;
+    padding: 30px 0 50px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fff6e0+0,fff6e0+79,ffffff+100&1+0,0+100 */
+    background: -moz-linear-gradient(top, rgba(255,246,224,1) 0%,rgba(255,246,224,0.21) 60%, rgba(255,246,224,0.21) 79%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,246,224,1) 0%,rgba(255,246,224,0.21) 60%,rgba(255,246,224,0.21) 79%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,246,224,1) 0%,rgba(255,246,224,1) 60%,rgba(255,246,224,0.7) 79%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff6e0', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+
+    ul{
+      li{
+        width: 33%;
+        text-align: center;
+        a{
+          font-size: 18px;
+          padding-left: 27px;
+          svg{
+            width: 22px;
+          }
+        }
+      }
+    }
+  }
+
+
+
+  #think .apix {
+    position: absolute;
+    left: 00px;
+    top: 500px;
+    width: 200px;
+  }
+}

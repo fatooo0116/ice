@@ -1,0 +1,411 @@
+.woocommerce-info{
+  max-width: 960px;
+  margin: auto;
+  .showlogin{
+    color:#5c7d16;
+    border-bottom: 1px solid  #5c7d16;
+  }
+  .showcoupon{
+    color:#5c7d16;
+    border-bottom: 1px solid  #5c7d16;
+  }
+}
+
+.wc_payment_methods .payment_box{
+  display: none ! important;
+}
+
+
+
+
+/*  結帳登入 */
+.woocommerce-checkout{
+  form.woocommerce-form-login{
+    max-width: 656px;
+    margin: 20px auto 80px auto;;
+    border-radius: 5px;
+    p{
+      margin-bottom: 20px;
+      color:#5c7d16;
+    }
+
+    .form-row{
+      max-width: 380px;
+      margin: 30px auto 30px ! important;;
+      label{
+        display: none;
+      }
+      input[type="text"],
+      input[type="email"],
+      input[type="password"],
+      input[type="tel"]
+      {
+        padding: 12px 10px;
+        border:0px;
+        width: 100%;
+      }
+      input[type="submit"]{
+        background:#f1d971;
+        color:#5c7d16;;
+      }
+      input[type="submit"]:hover{
+        background: #fff;;
+      }
+    }
+
+    .lost_password{
+      a{
+        color:#5c7d16;;;
+        border-bottom: 1px solid #5c7d16;;
+        font-size: 20px;
+      }
+    }
+
+    .fbbtn{
+      text-align: center ! important;
+      margin-bottom:50px ! important;
+    }
+
+
+    .form-row,.lost_password{
+        text-align:center;
+    }
+    .form-row-first{
+      margin: 0  0 20px 0;
+
+      text-align:left;
+      label{
+        text-align: left;
+      }
+    }
+
+    .form-row-last{
+        margin: 0  0 20px 0;
+
+      text-align:left;
+      label{
+        text-align: left;
+      }
+    }
+  }
+}  /*  woocommerce-checkout [end] */
+
+
+
+
+
+form.checkout_coupon{
+  max-width: 500px;
+  margin: 20px auto 80px auto;;
+
+
+  padding: 30px;
+  border-radius: 5px;
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"]
+  {
+    padding: 12px 10px;
+    border:0px;
+    width: 100%;
+  }
+  .form-row-first{
+    width: 100%;
+      margin: 0  0 20px 0;
+  }
+
+  .form-row-last{
+      width: 100%;
+        margin: 0  0 0px 0;
+    text-align: center;
+  }
+}
+
+
+
+#customer_details{
+
+  max-width: 960px;
+  margin: 50px auto;
+  border: solid 1px #a0ac48;
+  padding:0 15px;
+  border-radius: 5px;
+
+  h3.checkout_title1{
+    padding:30px 35px;
+    margin: 0;
+    border-bottom: 1px solid #a0ac48;
+    font-size: 24px;
+    color:#656565;
+  }
+  h3.checkout_title2{
+    padding:30px 35px;
+    font-size: 24px;
+    color:#656565;
+    border-top: 1px solid #a0ac48;
+    border-bottom: 1px solid #a0ac48;
+  }
+
+
+  .form-row{
+    padding: 20px 10px 0px 35px;
+    label{
+      display: block;
+      font-size: 18px;
+      font-weight: 400;
+      color:#5c7d16;
+      padding-left: 5px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="tel"]
+    {
+      padding: 12px 10px;
+      border:0px;
+      width: 380px;
+    }
+
+    textarea{
+      border:0px;
+      padding:15px 20px;
+      min-height:170px;
+    }
+  }
+
+
+  .create-account{
+      padding: 20px 10px 20px 60px;
+  }
+  .woocommerce-additional-fields{
+    margin-bottom: 40px;
+  }
+}
+
+
+
+#order_review_heading{display: none;}
+
+
+
+
+#payment{
+  #wdr_payment{
+    background-color: #f5f5f5;
+    padding: 30px;
+    margin-bottom: 60px;
+
+    h5{
+      font-size: 20px;
+      font-weight: 500;
+    }
+    ul.wc_payment_methods{
+      display: flex;
+      background: none;
+      padding: 0 ! important;
+      margin-bottom: 0px ! important;
+      li{
+        width: 50%;
+        label{
+          font-size: 16px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+#order_review{
+  max-width: 900px;
+  margin: auto;
+  color:#5c7d16;;
+  padding:0 15px;
+
+  h3{
+    background: #749233;;
+    color:#fff;
+    padding:32px 0;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 0;
+  }
+
+  #wdr_checkout_list{
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    background: #fff;
+    padding:53px;
+    font-size: 20px;
+
+    .woocommerce-checkout-review-order-table{
+      line-height: 2.2em;
+      max-width: 620px;
+      margin: auto  auto 50px;;
+      th,td{
+        font-weight: 400;
+      }
+      th,td:first-child{
+        text-align: left;
+      }
+      td{
+        text-align: center;
+      }
+      td:last-child{
+        text-align: right;
+      }
+      tfoot{
+        tr.fee{
+          th,td{
+            padding-bottom: 70px;
+          }
+        }
+        tr.order-total{
+          border-top:1px solid #a0ac48;
+          th,td{
+            padding-top:30px;
+          }
+        }
+      }
+    }
+
+    #payment .wc_payment_methods{
+      border-radius: 5px;
+      background-color: #f5f5f5;
+      padding:15px;
+      margin-bottom:60px;
+      .payment_box{
+        font-size: 16px;
+      }
+    }
+  }
+
+} /*  #order_review */
+
+
+
+/*   ###############################   Thankyou Page    ###############################  */
+
+
+#thankyou_page{
+  .orange{
+    display: block;
+    width: 250px;
+    height: 245px;
+    margin: 50px auto;
+    background: url(../img/orange.svg);
+    position: relative;
+    .text{    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    }
+  }
+  .list{
+    background: #fff;
+    border-radius: 5px;
+    max-width: 900px;
+    margin:100px auto;
+    padding:50px 20px; ;
+    ul{
+      display: flex;
+      li{
+        width: 25%;
+        text-align: center;
+        color:#656565;
+        font-size: 22px;
+        font-weight: 500;
+        strong{
+          display: block;
+          font-size: 16px;
+          color: #5c7d16;
+          line-height: 2em;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+
+#thankyou_option{
+  border: 1px solid #a0ac48;
+  max-width: 900px;
+  margin:30px auto 30px;
+  .inner{
+    color:#5c7d16;
+    a{
+      color:#5c7d16;
+    }
+    a:hover{
+      text-decoration: underline;
+    }
+    max-width:600px;
+    padding: 0 15px;
+    margin: 34px auto;
+    font-size: 22px;
+    line-height: 2em;
+    h3{
+      font-size: 26px;
+    }
+    h5{
+      font-size: 22px;
+    }
+    ul{
+      li.hlight{
+        color:#f29700;
+      }
+    }
+  }
+  .ctl{
+    text-align: center;
+    padding-bottom:  28px;
+    a.btn{
+      color:#fff;
+      font-size: 20px;
+      line-height:28px;
+      padding:11px 0;
+      display:inline-block;
+      width: 260px;
+      height: 50px;
+      border-radius: 28px;
+      background-color: #5c7d16;
+      margin: 40px 30px;
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  #customer_details .form-row{
+        padding: 20px 10px 0px 10px;
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        input[type="tel"]{
+          width: 100%;
+        }
+  }
+  .xform-row-add1,
+  .xform-row-add2{
+    width: 100% ! important;
+  }
+
+  #order_review{
+    padding:0;
+    #wdr_checkout_list{
+      padding: 20px;
+      font-size: 14px;
+    }
+  }
+}

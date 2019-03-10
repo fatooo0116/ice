@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1162" height="535" viewBox="0 0 1162 535">
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#FFED9E" font-family="NotoSansCJKtc-Medium, Noto Sans CJK TC" font-size="700" font-weight="400" transform="translate(-14 -287)">
+            <tspan x="0" y="812">404</tspan>
+        </text>
+        <g stroke="#749233" stroke-linecap="round" stroke-linejoin="round" stroke-width="15.36">
+            <path fill="#E7AF3D" d="M551.55 305.333v139.29s.546 26.896 30.589 26.896 29.86-25.444 29.86-25.444V305.333c0-16.693-13.532-30.225-30.225-30.225-16.692 0-30.224 13.532-30.224 30.225z"/>
+            <path stroke-dasharray="24,29" d="M677.548 377.74H486V176.37c0-10.178 1.455-104.683 95.773-104.683 26.663 0 45.904 6.674 59.79 16.446 9.255 6.513 16.129 14.403 21.235 22.61 5.008 8.047 8.316 16.398 10.503 24.06 4.073 14.287 4.246 26.173 4.246 29.209V377.74z"/>
+        </g>
+        <g fill="#749233" transform="rotate(42 352.693 893.904)">
+            <rect width="13.459" height="38.384" x="6.691" y="11.515" rx="6.73" transform="rotate(-20 13.42 30.707)"/>
+            <rect width="13.459" height="38.384" x="44.937" y=".972" rx="6.73"/>
+            <rect width="13.459" height="38.384" x="79.756" y="11.515" rx="6.73" transform="rotate(20 86.486 30.707)"/>
+        </g>
+    </g>
+</svg>
